@@ -19,9 +19,7 @@
         }
     }
 
-
-
-    Plotly.d3.csv('https://raw.githubusercontent.com/PhilipAxelrod/Rhode-Island-Schools-Map/master/RhodeIsland_Map2.csv', function(err, rows){
+    Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/data/Cleaned_Rhode_Island_Map.csv', function(err, rows){
         function unpack(rows, key) {
             return rows.map(function(row) { return row[key]; });
         }
