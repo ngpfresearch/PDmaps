@@ -1,5 +1,5 @@
-function colorFromStatus(status){
-    if(status === "Missing Info") {
+function colorFromHotSpot(status){
+    if(status === "0") {
         return 'rgb(255, 0, 0)'
     } else {
         return 'rgb(0, 102, 255)'
@@ -15,14 +15,15 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/Rhod
 
     scl = [[0, 'rgb(150,0,90)'],[0.125, 'rgb(0, 0, 200)'],[0.25,'rgb(0, 25, 255)'],[0.375,'rgb(0, 152, 255)'],[0.5,'rgb(44, 255, 150)'],[0.625,'rgb(151, 255, 0)'],[0.75,'rgb(255, 234, 0)'],[0.875,'rgb(255, 111, 0)'],[1,'rgb(255, 0, 0)']];
 
-    var colors = unpack(rows, 'Status').map(status => colorFromStatus(status));
+    let colors = unpack(rows, 'HotSpot').map(status => colorFromHotSpot(status));
 
-    let name  = unpack(rows, 'School.Name').map(name => "Name: " + name);
-    let district =  unpack(rows, 'District').map(disrict => "District: " + disrict);
+    let zipCode =  unpack(rows, 'ZIP').map(disrict => "Zip code: " + disrict);
+    let numberOfSchools =  unpack(rows, 'Number.of.Schools').map(disrict => "Number of schools: " + disrict);
+    let contacts =  unpack(rows, 'Contacts').map(disrict => "Pipe drive contacts: " + disrict);
 
-    let hoverText = name.map(function(e, i) {
-        return [e, district[i]];
-    }).map(ar => ar[0] + "<br>" + ar[1]);
+    let hoverText = zipCode.map(function(e, i) {
+        return [e, numberOfSchools[i], contacts[i]];
+    }).map(ar => ar[0] + "<br>" + ar[1]+ "<br>" + ar[2]);
 
     var data = [{
         type: 'scattermapbox',
@@ -40,7 +41,7 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/Rhod
             size: 15,
             opacity: 0.3
         },
-        name: 'NA Precipitation'
+        name: ''
     }];
 
     layout = {
