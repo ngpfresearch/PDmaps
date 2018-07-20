@@ -38,7 +38,7 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/data
             cmin: 0,
             cmax: 1.4,
             reversescale: false,
-            size: 15,
+            size: 5,
             opacity: 0.3
         },
         name: ''
@@ -49,15 +49,15 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/data
         hoverinfo: 'none',
         mapbox: {
             center: {
-                lat: 41.7466901,
-                lon: -71.3194833
+                lat: 37.0902,
+                lon: -95.7129
             },
             domain: {
                 x: [0, 1],
                 y: [0, 1]
             },
             style: 'light',
-            zoom: 8
+            zoom: 3
         },
         margin: {
             r: 0,
