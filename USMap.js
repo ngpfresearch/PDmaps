@@ -1,8 +1,8 @@
 function colorFromHotSpot(status){
     if(status === "0") {
-        return 'rgb(255, 0, 0)'
-    } else {
         return 'rgb(0, 102, 255)'
+    } else {
+        return 'rgb(255, 0, 0)'
     }
 }
 
