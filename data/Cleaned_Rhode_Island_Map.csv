@@ -1,60 +1,60 @@
-﻿NCES.School.ID,School.Name,District,reclat,long
-440003000001,Barrington High School,Barrington,41.7466901,-71.3194833
-440000800297,BEACON Charter School,Beacon Charter School,42.0051213,-71.5127439
-440003600246,Blackstone Academy Charter,Blackstone Academy,41.8690171,-71.3847776
-440006500009,Mt. Hope High School,Bristol Warren,41.6873999,-71.2686824
-440009000019,Burrillville High School,Burrillville,41.968278,-71.662278
-440012000026,Central Falls Sr High,Central Falls,41.8868898,-71.3912923
-440015000029,Chariho High School,Chariho,41.4500097,-71.6963463
-440015000286,The R.Y.S.E School,Chariho,41.4483362,-71.6955843
-440021000032,Coventry High School,Coventry,41.6831248,-71.5879226
-440024000044,Cranston High School East,Cranston,41.7802894,-71.4377924
-440024000045,Cranston High School West,Cranston,41.7727635,-71.4778156
-440024000229,NEL/CPS Construction Career,Cranston,41.7393687,-71.4608723
-440027000076,Cumberland High School,Cumberland,41.9643227,-71.446541
-440000400379,Davies Career-Tech High School,Davies Career and Tech,41.902753,-71.457103
-440030000086,East Greenwich High,East Greenwich,41.638834,-71.483607
-440033000097,East Providence High,East Providence,41.81943,-71.3545773
-440036000391,Exeter-West Greenwich Regional,Exeter-West Greenwich,41.6075609,-71.6383184
-440042000116,Ponaganset High School,Foster-Glocester,41.8655893,-71.7148526
-440003100455,Highlander Charter,Highlander,41.7994077,-71.418194
-440054000128,Johnston Senior High,Johnston,41.8322354,-71.5012711
-440057000135,Lincoln Senior High School,Lincoln,41.936602,-71.450549
-440000300121,Metropolitan Career Tech Ctr,MET Career and Tech,41.8064841,-71.4129599
-440063000147,Middletown High School,Middletown,41.5180416,-71.2874673
-440066000151,Narragansett High School,Narragansett,41.4308374,-71.469545
-440069000149,Block Island School,New Shoreham,41.164368,-71.56078
-440072000159,Rogers High School,Newport,41.4682229,-71.3222642
-440075000168,North Kingstown Sr. High,North Kingstown,41.555876,-71.448628
-440078000180,North Providence High,North Providence,41.8604046,-71.4594345
-440081000186,North Smitfield HS,North Smithfield,41.9532747,-71.5452482
-440003200220,Paul Cuffee Charter School,Paul Cuffee Charter Sch,41.8293234,-71.4274317
-440084000201,Charles E. Shea High School,Pawtucket,41.8652162,-71.3881127
-440084000466,Jacqueline M. Walsh School,Pawtucket,41.875637,-71.370954
-440084000202,William E. Tolman High,Pawtucket,41.880444,-71.380634
-440087000207,Portsmouth High School,Portsmouth,41.612027,-71.249262
-440090000055,Academy for Career Exploration,Providence,41.8122481,-71.4285219
-440090000217,Central High School,Providence,41.8166725,-71.4210162
-440090000218,Classical High School,Providence,41.8174306,-71.4209159
-440090000344,Dr. Jorge Alvarez HS,Providence,41.7953586,-71.4300025
-440090000323,E-Cubed Academy,Providence,41.8541802,-71.4342705
-440090000224,Hope High School,Providence,41.8346576,-71.4027551
-440090000232,Mount Pleasant High,Providence,41.839523,-71.452771
-440090000467,Providence Career Technical,Providence,41.816389,-71.4220604
-440090000157,Times2 Academy,Providence,41.8384652,-71.4221103
-440090000209,W B Cooley and Acad Internationa,Providence,41.798978,-71.4079451
-440001900479,RINI Middle College,Rhode Island Nurses Institute Middle College,41.8225927,-71.4150008
-440096000255,Scituate High School,Scituate,41.8243426,-71.6194978
-440002400483,Sheila Skip Nowell (Capital),Sheila Skip Nowell Leadership Academy,41.8190551,-71.4434759
-440002400484,Sheila Skip Nowell (Central),Sheila Skip Nowell Leadership Academy,41.883533,-71.387664
-440099000259,Smithfield High School,Smithfield,41.880155,-71.5452393
-440102000265,South Kingstown High,South Kingstown,41.4465499,-71.4948933
-440001700477,The Greene School,The Greene School,41.615616,-71.682594
-440105000274,Tiverton High School,Tiverton,41.628272,-71.165108
-440001800478,Trinity Academy Performing Art,Trinity Academy for the Performing Arts,41.8225927,-71.4150008
-440002500487,Village Green Virtual,Village Green Virtual,41.822918,-71.41147
-440111000301,Pilgrim High School,Warwick,41.7466221,-71.4122092
-440111000307,Toll Gate High School,Warwick,41.6975981,-71.4804192
-440114000318,West Warwick High School,West Warwick,41.7092158,-71.5154558
-440117000325,Westerly High School,Westerly,41.3761372,-71.8188675
-440120000345,Woonsocket High School,Woonsocket,42.0048216,-71.4847835
+﻿NCES.School.ID,School.Name,District,reclat,long,Status
+440003000001,Barrington High School,Barrington,41.7466901,-71.3194833,Gold Standard
+440000800297,BEACON Charter School,Beacon Charter School,42.0051213,-71.5127439,Missing Info
+440003600246,Blackstone Academy Charter,Blackstone Academy,41.8690171,-71.3847776,Missing Info
+440006500009,Mt. Hope High School,Bristol Warren,41.6873999,-71.2686824,Silver Standard
+440009000019,Burrillville High School,Burrillville,41.968278,-71.662278,Silver Standard
+440012000026,Central Falls Sr High,Central Falls,41.8868898,-71.3912923,Silver Standard
+440015000029,Chariho High School,Chariho,41.4500097,-71.6963463,Silver Standard
+440015000286,The R.Y.S.E School,Chariho,41.4483362,-71.6955843,Silver Standard
+440021000032,Coventry High School,Coventry,41.6831248,-71.5879226,Silver Standard
+440024000044,Cranston High School East,Cranston,41.7802894,-71.4377924,Gold Standard
+440024000045,Cranston High School West,Cranston,41.7727635,-71.4778156,Gold Standard
+440024000229,NEL/CPS Construction Career,Cranston,41.7393687,-71.4608723,Missing Info
+440027000076,Cumberland High School,Cumberland,41.9643227,-71.446541,Gold Standard
+440000400379,Davies Career-Tech High School,Davies Career and Tech,41.902753,-71.457103,Missing Info
+440030000086,East Greenwich High,East Greenwich,41.638834,-71.483607,Silver Standard
+440033000097,East Providence High,East Providence,41.81943,-71.3545773,Silver Standard
+440036000391,Exeter-West Greenwich Regional,Exeter-West Greenwich,41.6075609,-71.6383184,Bronze Standard
+440042000116,Ponaganset High School,Foster-Glocester,41.8655893,-71.7148526,Bronze Standard
+440003100455,Highlander Charter,Highlander,41.7994077,-71.418194,Missing Info
+440054000128,Johnston Senior High,Johnston,41.8322354,-71.5012711,Gold Standard
+440057000135,Lincoln Senior High School,Lincoln,41.936602,-71.450549,Silver Standard
+440000300121,Metropolitan Career Tech Ctr,MET Career and Tech,41.8064841,-71.4129599,Missing Info
+440063000147,Middletown High School,Middletown,41.5180416,-71.2874673,Bronze Standard
+440066000151,Narragansett High School,Narragansett,41.4308374,-71.469545,Silver Standard
+440069000149,Block Island School,New Shoreham,41.164368,-71.56078,Missing Info
+440072000159,Rogers High School,Newport,41.4682229,-71.3222642,Bronze Standard
+440075000168,North Kingstown Sr. High,North Kingstown,41.555876,-71.448628,Silver Standard
+440078000180,North Providence High,North Providence,41.8604046,-71.4594345,Silver Standard
+440081000186,North Smitfield HS,North Smithfield,41.9532747,-71.5452482,Silver Standard
+440003200220,Paul Cuffee Charter School,Paul Cuffee Charter Sch,41.8293234,-71.4274317,Missing Info
+440084000201,Charles E. Shea High School,Pawtucket,41.8652162,-71.3881127,Silver Standard
+440084000466,Jacqueline M. Walsh School,Pawtucket,41.875637,-71.370954,Missing Info
+440084000202,William E. Tolman High,Pawtucket,41.880444,-71.380634,Silver Standard
+440087000207,Portsmouth High School,Portsmouth,41.612027,-71.249262,Bronze Standard
+440090000055,Academy for Career Exploration,Providence,41.8122481,-71.4285219,Bronze Standard
+440090000217,Central High School,Providence,41.8166725,-71.4210162,Silver Standard
+440090000218,Classical High School,Providence,41.8174306,-71.4209159,Silver Standard
+440090000344,Dr. Jorge Alvarez HS,Providence,41.7953586,-71.4300025,Silver Standard
+440090000323,E-Cubed Academy,Providence,41.8541802,-71.4342705,Silver Standard
+440090000224,Hope High School,Providence,41.8346576,-71.4027551,Silver Standard
+440090000232,Mount Pleasant High,Providence,41.839523,-71.452771,Silver Standard
+440090000467,Providence Career Technical,Providence,41.816389,-71.4220604,Silver Standard
+440090000157,Times2 Academy,Providence,41.8384652,-71.4221103,Missing Info
+440090000209,W B Cooley and Acad Internationa,Providence,41.798978,-71.4079451,Silver Standard
+440001900479,RINI Middle College,Rhode Island Nurses Institute Middle College,41.8225927,-71.4150008,Missing Info
+440096000255,Scituate High School,Scituate,41.8243426,-71.6194978,Silver Standard
+440002400483,Sheila Skip Nowell (Capital),Sheila Skip Nowell Leadership Academy,41.8190551,-71.4434759,Gold Standard
+440002400484,Sheila Skip Nowell (Central),Sheila Skip Nowell Leadership Academy,41.883533,-71.387664,Gold Standard
+440099000259,Smithfield High School,Smithfield,41.880155,-71.5452393,Gold Standard
+440102000265,South Kingstown High,South Kingstown,41.4465499,-71.4948933,Silver Standard
+440001700477,The Greene School,The Greene School,41.615616,-71.682594,Missing Info
+440105000274,Tiverton High School,Tiverton,41.628272,-71.165108,Silver Standard
+440001800478,Trinity Academy Performing Art,Trinity Academy for the Performing Arts,41.8225927,-71.4150008,Missing Info
+440002500487,Village Green Virtual,Village Green Virtual,41.822918,-71.41147,Gold Standard
+440111000301,Pilgrim High School,Warwick,41.7466221,-71.4122092,Gold Standard
+440111000307,Toll Gate High School,Warwick,41.6975981,-71.4804192,Gold Standard
+440114000318,West Warwick High School,West Warwick,41.7092158,-71.5154558,Silver Standard
+440117000325,Westerly High School,Westerly,41.3761372,-71.8188675,Gold Standard
+440120000345,Woonsocket High School,Woonsocket,42.0048216,-71.4847835,Silver Standard

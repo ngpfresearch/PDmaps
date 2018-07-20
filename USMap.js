@@ -8,7 +8,7 @@ function colorFromHotSpot(status){
 
 
 
-Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/RhodeIsland_Map2.csv', function(err, rows){
+Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/data/state50State_People_School_byZIP_Hot.csv', function(err, rows){
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
     }
@@ -31,7 +31,7 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/Rhod
         hoverinfo: 'text',
         text: hoverText,
         lon: unpack(rows, 'long'),
-        lat: unpack(rows, 'reclat'),
+        lat: unpack(rows, 'lat'),
         marker: {
             color: colors,
             colorscale: scl,
