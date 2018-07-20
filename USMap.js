@@ -19,7 +19,7 @@ Plotly.d3.csv('https://raw.githubusercontent.com/ngpfresearch/PDmaps/master/data
 
     let zipCode =  unpack(rows, 'ZIP').map(disrict => "Zip code: " + disrict);
     let numberOfSchools =  unpack(rows, 'Number.of.Schools').map(disrict => "Number of schools: " + disrict);
-    let contacts =  unpack(rows, 'Contacts').map(disrict => "Pipe drive contacts: " + disrict);
+    let contacts =  unpack(rows, 'Pipedrive.Contacts').map(disrict => "Pipe drive contacts: " + disrict);
 
     let hoverText = zipCode.map(function(e, i) {
         return [e, numberOfSchools[i], contacts[i]];
